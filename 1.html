@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+  <title>许楚国15207131424</title>
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_908787_kekc8lrkg7e.css">
+  <style>
+    /*css reset*/ 
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    } 
+
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    img {
+      width: 30%;
+      height: 30%;
+    }
+
+    /*common css  */
+    .pill {
+      background: #000;
+      color: #fff;
+      display: inline-block;
+      font-size: 14px;
+      width: 140px;
+      line-height: 20px;
+      text-align: center;
+      border-radius: 20px;;
+    }
+
+    .layout {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .clearfix::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    /* page css*/
+    body {
+      font: 16px/1.5 SimSun, STKaiti, "Microsoft YaHei", SimHei, Helvetica, Arial;
+      color: #333;
+    }
+
+    .wrapper {
+      background-color: #ececec;
+      /* margin-top: 30px; */
+      margin-bottom: 30px;
+      /* padding-top: 40px; */
+    }
+
+    .aside {
+      float: left;
+      width: 280px;
+    }
+
+    .aside .user {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .aside .user h1{
+      font-size: 40px;
+    }
+
+    .aside .user h1::after {
+      content: '';
+      display: block;
+      width: 60px;
+      border-top: 1px solid #d6d6d6;
+      margin: 16px auto;
+    }
+
+    .aside .user::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      margin-top: 20px;
+      border-top: 20px solid #d6d6d6;
+      border-bottom: 20px solid transparent;
+      border-right: 140px solid #d6d6d6;
+      border-left: 140px solid transparent;
+    }
+
+    .aside .contact {
+      padding: 20px;
+    }
+
+    .aside .contact li {
+      border-bottom: 1px solid #d6d6d6;
+      list-style: none;
+      line-height: 40px;
+    }
+
+    .aside .contact .iconfont {
+      border-right: 1px solid #d6d6d6;
+      padding-right: 10px;
+      margin-right: 10px;
+      padding-left: 10px;
+      display: inline-block;
+      font-size: 20px;
+      color: #7bbaaa;
+    }
+
+    .aside .skills {
+      background: #7bbaaa;
+      padding: 20px;
+      color: #fff;
+    }
+
+    .aside .skills dt {
+      color: #eee;
+      margin-top: 20px;
+    }
+
+    .aside .skills dd {
+      height: 4px;
+      background: #74c5b5;
+      border-radius: 2px;
+      margin-top: 10px;
+    }
+
+    .aside .skills .mastery {
+      height: 4px;
+      background: #fff;
+      display: block;
+      border-radius: 2px;
+    }
+
+    .aside .others h2 {
+      margin: 20px 0 0 20px;
+    }
+
+    .main {
+      margin-left: 280px;
+      background: #fff;
+      /* padding: 40px; */
+      padding:20px;
+      margin-right: 20px;
+      width: 40rem;
+    }
+
+    .main .intro {
+      overflow: auto;
+    }
+    .main .intro img {
+      width: 80px;
+      height: 80px;
+      float: left;
+    }
+
+    .main .intro p {
+      margin-left: 120px;
+    }
+
+    .section .pill {
+      float: left;
+      margin-top: 5px;
+    }
+
+    .section h2{
+      font-size: 40px;
+      color: #d9d9d9;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .section .more {
+      margin-left: 150px;
+      border-left: 1px solid #eee;
+    }
+    .section h3 {
+      color: #666;
+      font-size: 20px;
+      font-weight: normal;
+    }
+    .section h3 strong{
+      color: #111;
+      font-weight: bold;
+    }
+
+    .section h3::before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 6px;
+      border: 2px solid #7bbaaa;
+      margin-right: 20px;
+      position: relative;
+      left: -5px;
+    }
+
+    .section h4 {
+      color: #111;
+      margin-top: 20px;
+      margin-left: 40px;
+    }
+
+
+    .section .more ul {
+      margin-left: 50px;
+      padding-bottom: 20px;
+    }
+    .section .more li {
+      color: #666;
+      font-size: 14px;
+    }
+
+
+    @media print {
+      .aside {
+        width: 200px;
+      }
+      .main {
+        margin-left: 200px;
+      }
+      .aside .user::after {
+      border-right-width: 100px;
+      border-left-width: 100px;
+    }
+      .pill {
+        display: none;
+      }
+
+      .section .more {
+        margin-left: 20px;
+      }
+
+      .wrapper {
+        margin: 0;
+      }
+    }
+
+    .highlight {
+      color: #FF5700;
+      border-radius: 5px;
+      background: #efefef;
+    }
+
+    @media screen and (max-width: 380px) {
+      .main {
+        width: 40rem;
+        padding-top:20px;
+      }
+      .wrapper {
+        padding-top: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper layout clearfix">
+    <div class="aside">
+      <div class="user">
+        <h1>许楚国</h1>
+        <p>应聘前端工程师</p>
+      </div>
+      <ul class="contact">
+        <li><span class="iconfont icon-email"></span> xuchuguo@qq.com</li>
+        <li><span class="iconfont icon-phone"></span> 15207131424</li>
+        <li><span class="iconfont icon-education"></span> 湖北科技职业学院</li>
+      </ul>
+      <div class="skills">
+          <h2>我的技能</h2>
+          <dl>
+            <dt>JavaScript/HTML5/CSS3/ES6</dt>
+            <dd><span class="mastery" style="width: 90%"></span></dd>
+            <dt>Vue/Vuex/Vue-router</dt>
+            <dd><span class="mastery" style="width: 80%"></span></dd>
+          </dl>
+        </div>
+      </div>
+      <div class="main">
+        <div class="education section">
+          <h2>专业技能</h2>
+          <div class="item">
+              
+              <div class="more">
+                <h3><strong>能力介绍</strong></h3>
+                <ul>
+                  <li>掌握常用HTML标签，理解<span class="highlight">语义化</span>标签，DOM结构和操作，熟悉标准<span class="highlight">DOM事件流</span>，掌握CSS核心概念如 <span class="highlight">块级元素和行内元素、盒模型、文档流、浮动和定位、BFC、Flex布局</span>。               </li>
+                  <li>熟练掌握原生JavaScript和部分ES6，理解重要概念比如：<span class="highlight">原型、闭包、作用域链、面对对象、异步操作</span></li>
+                  <li>熟悉Vue常用的功能，如<span class="highlight">组件、Vue-Router、Vuex、生命周期</span>等</li>
+                  <li>了解<span class="highlight">Webpack</span>基本配置和<span class="highlight">Gulp</span>基本使用</li>
+                </ul>
+              </div>
+        </div>
+        <div class="projects section">
+          <h2>项目经历</h2>
+          <div class="item">
+              <div class="more">
+                <h3>共享多人博客</h3>
+                <ul>
+                    <li><strong>项目介绍:</strong>该项目使用 Vue 实现了一个在线博客分享的平台。包含<span class="highlight">首页、用户文章列表、个人管理</span>等页面，实现了<span class="highlight">登录、注册、编辑、发布</span>等功能。项目使用<span class="highlight">Grid</span>作页面布局，以Vue-CLI为基础创建项目模版，使用Less作<span class="highlight">CSS预处理</span>，引用Element-UI作<span class="highlight">交互</span>。通过 Vue-Router实现<span class="highlight">路由的跳转、异步加载、权限验证</span>等，通过Vuex实现<span class="highlight">状态管理</span>，用Axios<span class="highlight">获取数据</span>，并对<span class="highlight">接口进行了封装</span> </li>
+                    <li><strong>技术栈:Vue-CLI/Webpack/Npm/Vue-Router/Axios/Vuex/ES6</strong></li>
+                    <li><strong>项目源码:<a href="https://github.com/xuchuguo/Vue-blog" target="_blank">https://github.com/xuchuguo/vue-blog</a></strong></li>
+                    <li><strong>预览项目:<a href="https://xuchuguo.github.io/Vue-blog/dist/index.html#/" target="_blank">点击查看</a></strong></li>
+                </ul>
+              </div>
+          </div>
+          <div class="item">
+            <div class="more">
+              <h3>CNode社区</h3>
+              <ul>
+                  <li><strong>项目介绍:</strong>该项目使用Vue还原CNode官方社区，项目调用CNode官方社区提供的API，以Vue CLI创建项目模版，使用Axios获取数据，使用Vue Router进行 <span class="highlight">前端路由的切换及传参</span>，<span class="highlight">使用watch监听路由的变化</span>,Webpack打包。</li>
+                  <li><strong>技术栈:Vue-CLI/Vue-Router/Axios/ES6/Npm/Webpack</strong></li>
+                  <li><strong>项目源码:<a href="https://github.com/xuchuguo/CNode" target="_blank">https://github.com/xuchuguo/wx-translate</a></strong></li>
+                  <li><strong>预览项目:<a href="https://xuchuguo.github.io/CNode/dist/index.html#/" target="_blank">点击查看</a></strong></li>
+              </ul>
+            </div>
+          </div>
+          <div class="item">
+           <div class="more">
+              <h3>Canvas画板</h3>
+              <ul>
+                  <li><strong>项目介绍:</strong> 是一个使用<span class="highlight">纯原生JS</span>开发的，主要利用HTML5的<span class="highlight">Canvas API</span>,是我在学习原生JS及Canvas过程中开发的小工具。其提供在<span class="highlight">PC及手机端</span>在线画画、橡皮擦、画笔调色、画作删除等功能，并支持画作下载。</li>
+                  <li><strong>项目源码:<a href="https://github.com/xuchuguo/Canvas" target="_blank">https://github.com/xuchuguo/Canvas</a></strong></li>
+                  <li><strong>预览项目:<a href="https://xuchuguo.github.io/Canvas/" target="_blank">点击查看</a></strong></li>
+              </ul>  
+            </div>
+          </div>
+          <div class="item">
+              <div class="more">
+                <h3>好用翻译小程序</h3>
+                <ul>
+                    <li><strong>项目介绍:</strong>:一款提供翻译功能的<span class="highlight">微信小程序</span>,该项目以百度翻译 API 为服务器域名提供支持，支持中、英、法、韩、日、阿拉伯、西班牙语的翻译,包含<span class="highlight">翻译首页、语言列表页和翻译历史页</span>。</li>
+                    <li><strong>项目源码:<a href="https://github.com/xuchuguo/wx-translate" target="_blank">https://github.com/xuchuguo/wx-translate</a></strong></li>
+                    <li><strong>预览项目:<a href="https://upload-images.jianshu.io/upload_images/13839130-94f4a04cd213e924.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" target="_blank">点击查看</a></strong></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
