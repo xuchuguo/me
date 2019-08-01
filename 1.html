@@ -22,6 +22,10 @@
       width: 30%;
       height: 30%;
     }
+    .education .section {
+      letter-spacing: 1px;
+      font: 20px/1.5 '新宋体' ;
+    }
 
     /*common css  */
     .pill {
@@ -48,7 +52,7 @@
 
     /* page css*/
     body {
-      font: 16px/1.5 SimSun, STKaiti, "Microsoft YaHei", SimHei, Helvetica, Arial;
+      font: 18px/1.5 '新宋体';
       color: #333;
     }
 
@@ -177,8 +181,9 @@
     }
 
     .section .more {
-      margin-left: 150px;
-      border-left: 1px solid #eee;
+        letter-spacing: 1px;
+        margin-left: 30px;
+        border-left: 1px solid #eee;
     }
     .section h3 {
       color: #666;
@@ -215,7 +220,7 @@
     }
     .section .more li {
       color: #666;
-      font-size: 14px;
+      font: 17px/1.5 '新宋体';
     }
 
 
@@ -300,15 +305,29 @@
           <h2>项目经历</h2>
           <div class="item">
               <div class="more">
-                <h3>共享多人博客</h3>
+                <h3>简易UI库</h3>
                 <ul>
-                    <li><strong>项目介绍:</strong>该项目使用 Vue 实现了一个在线博客分享的平台。包含<span class="highlight">首页、用户文章列表、个人管理</span>等页面，实现了<span class="highlight">登录、注册、编辑、发布</span>等功能。项目使用<span class="highlight">Grid</span>作页面布局，以Vue-CLI为基础创建项目模版，使用Less作<span class="highlight">CSS预处理</span>，引用Element-UI作<span class="highlight">交互</span>。通过 Vue-Router实现<span class="highlight">路由的跳转、异步加载、权限验证</span>等，通过Vuex实现<span class="highlight">状态管理</span>，用Axios<span class="highlight">获取数据</span>，并对<span class="highlight">接口进行了封装</span> </li>
-                    <li><strong>技术栈:Vue-CLI/Webpack/Npm/Vue-Router/Axios/Vuex/ES6</strong></li>
-                    <li><strong>项目源码:<a href="https://github.com/xuchuguo/Vue-blog" target="_blank">https://github.com/xuchuguo/Vue-blog</a></strong></li>
-                    <li><strong>预览项目:<a href="https://xuchuguo.github.io/Vue-blog/dist/index.html#/" target="_blank">点击查看</a></strong></li>
+                    <li><strong>项目介绍:</strong>该项目是参照 Framework7、Ant Design、Element UI、iView等UI库思路，做的一个基于Vue的简易<span class="highlight">UI组件库</span>目前已支持按钮、输入框、网格、布局、Popover等组件。每个组件均经历从需求分析到<span class="highlight">单元测试</span>，并用<span class="highlight"> TravisCI 实现持续集成</span>，最终以VuePress为基础<span class="highlight">制作官方文档</span>，发布于 npmjs.org，提升自己对前端工程化以及单元测试的重要性有深刻理解。
+                    </li>
+                    <li><strong>技术栈:Vue.js/VuePress/ES6/Parcel/Npm Scripts/Mocha/SCSS/TravisCI</strong></li>
+                    <li><strong>项目源码:<a href="https://github.com/xuchuguo/testgulu" target="_blank">https://github.com/xuchuguo/testgulu</a></strong></li>
+                    <li><strong>预览项目:<a href="https://xuchuguo.github.io/testgulu/" target="_blank">点击查看</a></strong></li>
                 </ul>
               </div>
           </div>
+
+            <div class="item">
+                <div class="more">
+                    <h3>共享多人博客</h3>
+                    <ul>
+                        <li><strong>项目介绍:</strong>该项目使用 Vue 实现了一个在线博客分享的平台。包含<span class="highlight">首页、用户文章列表、个人管理</span>等页面，实现了<span class="highlight">登录、注册、编辑、发布</span>等功能。项目使用<span class="highlight">Grid</span>作页面布局，以Vue-CLI为基础创建项目模版，使用Less作<span class="highlight">CSS预处理</span>，引用Element-UI作<span class="highlight">交互</span>。通过 Vue-Router实现<span class="highlight">路由的跳转、异步加载、权限验证</span>等，通过Vuex实现<span class="highlight">状态管理</span>，用Axios<span class="highlight">获取数据</span>，并对<span class="highlight">接口进行了封装</span> </li>
+                        <li><strong>技术栈:Vue-CLI/Webpack/Npm/Vue-Router/Axios/Vuex/ES6</strong></li>
+                        <li><strong>项目源码:<a href="https://github.com/xuchuguo/Vue-blog" target="_blank">https://github.com/xuchuguo/Vue-blog</a></strong></li>
+                        <li><strong>预览项目:<a href="https://xuchuguo.github.io/Vue-blog/dist/index.html#/" target="_blank">点击查看</a></strong></li>
+                    </ul>
+                </div>
+            </div>
+
           <div class="item">
             <div class="more">
               <h3>CNode社区</h3>
@@ -322,7 +341,7 @@
           </div>
           <div class="item">
            <div class="more">
-              <h3>Canvas画板</h3>
+              <h3>来涂鸦吧</h3>
               <ul>
                   <li><strong>项目介绍:</strong> 是一个使用<span class="highlight">纯原生JS</span>开发的，主要利用HTML5的<span class="highlight">Canvas API</span>,是我在学习原生JS及Canvas过程中开发的小工具。其提供在<span class="highlight">PC及手机端</span>在线画画、橡皮擦、画笔调色、画作删除等功能，并支持画作下载。</li>
                   <li><strong>项目源码:<a href="https://github.com/xuchuguo/Canvas" target="_blank">https://github.com/xuchuguo/Canvas</a></strong></li>
